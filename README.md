@@ -1,1 +1,18 @@
-gsacrestano.github.io
+My Personal Website
+
+Welcome to my personal website repository! This site is a showcase of my journey as a second-year computer science student, where I share my notes, projects, and insights from various courses.
+
+Folders and Files
+
+layouts: This directory contains the main HTML template for the website.
+index.html: The main HTML file that structures the homepage of the website.
+static: This directory houses all static files, such as CSS and images.
+css: Contains the stylesheets used for the website.
+img: Contains all image assets used on the website.
+Usage
+
+To run the website locally, follow these steps:
+
+Clone the repository: ```sh git clone https://github.com/yourusername/your-repo-name.git
+Navigate to the project directory ```sh cd your-repo-name
+Open the index.html file in your browser to view the website.

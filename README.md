@@ -9,7 +9,6 @@ Welcome to my personal website repository! This site is a showcase of my journey
   - `index.html`: The main HTML file that structures the homepage of the website.
   - `static`: This directory houses all static files, such as CSS and images.
     - `css`: Contains the stylesheets used for the website.
-      - `styles.css`: The main CSS file for styling the website.
     - `images`: Contains all image assets used on the website.
 
 ## Usage

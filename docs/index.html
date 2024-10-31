@@ -12,8 +12,15 @@
 
 <body>
 <header>
-    <img id="logoImg" src="static/img/logo.jpeg" alt="logo" href="www.google.com"/>
-    <h1>Giulio Sacrestano</h1>
+    <div>
+        <img id="logoImg" class="rounded-circle" src="static/img/logo.jpeg" alt="logo" href="www.google.com"/>
+        <h1>Giulio Sacrestano</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <a type="button" class="btn btn-primary btn-sm ml-0 mt-1" href="#notes"> Notes</a>
+        <a type="button" class="btn btn-primary btn-sm ml-2 mt-1" href="#projects"> Projects </a>
+
+    </nav>
 </header>
 
 <div class='paragraphContainer'>
@@ -39,87 +46,84 @@
     </ul>
 </div>
 
-<div class="container text-center">
-    <div class="row">
-        <div class="col">
-            <div class="list-group">
-                <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
-                    My Notes
-                </button>
+<div id="notes" class="container text-center p-3">
 
-                <button disabled="disabled" type="button" class="list-group-item list-group-item-action"> Matematica
-                    Discreta
-                </button>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eo9it0xEcnBKg1RnPdwDP1YBzhFJoi_PWRdPPvbziIHf9w?e=fgwobB"
-                   target="_blank">
-                    <button type="button" class="list-group-item list-group-item-action"> Analisi Matematica
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Ev8T_1SumdhIhVCFrOFl9BgBa_wxKrQNTGcTxCj8kXOIUA?e=t2gYIo"
-                   target="_blank">
-                    <button type="button" class="list-group-item list-group-item-action"> Programmazione Ad
-                        Oggetti
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EjgTzoghH6FBlsDXGLAl3bgBQ3PupiQoOwFMvkMvvW0cEA?e=EMdU4j"
-                   target="_blank">
-                    <button type="button" class="list-group-item list-group-item-action"> Reti Di Calcolatori
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eihu5P64EEFHndVT_VJKgNEBdCQ1AvaI7-l0Xz8qOsA-Hw?e=4zNgCK"
-                   target="_blank">
-                    <button type="button" class="list-group-item list-group-item-action"> Calcolo
-                        Probabilistico Statistica Matematica
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EqRoP_VNvZBMjpeTntsKzSkBvgJXJVPunEmE1nVTlVXB6w?e=y3tXvr"
-                   target="_blank">
-                    <button type="button" class="list-group-item list-group-item-action"> Progettazione
-                        Algoritmi
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eq3Rp8R9BPNIlS37WwbP2vEBxKQjqE3jw_QhPPmX_eGxRw?e=EP5PeA"
-                   target="_blank">
-                    <button type="button" class="list-group-item list-group-item-action"> Ingegneria del Software
+    <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+            My Notes
+        </button>
 
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Enf3sk3CmQlBiyRCKaacKC8BuSqmJP3LHfPAR3F334QelA?e=5UrueQ"
-                   target="_blank">
-                    <button type="button" class="list-group-item list-group-item-action"> Programmazione Distribuita
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="col">
-            <div class="list-group">
-                <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
-                    My Project
-                </button>
-                <a href="https://github.com/gsacrestano/FormazionSuMisura">
-                    <button type="button"
-                            class="list-group-item list-group-item-action"> Formazione Su Misura
-                    </button>
-                </a>
-                <a href="https://github.com/gsacrestano/comicvault">
-                    <button type="button"
-                            class="list-group-item list-group-item-action"> ComicVault
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EroohwAlkRhDuHPPs7mZBuAB0Dq_5DNktz1XPM4WImBOCw?e=LJMXmU">
-                    <button type="button" class="list-group-item list-group-item-action"> Analisi Temperature
-                        Fisciano
-                    </button>
-                </a>
-                <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EirAozeDcthNhL3_EIrgzicBsdFjWrYDL53K4CQlAsJHyw?e=UCPbhY">
-                    <button type="button" class="list-group-item list-group-item-action"> Server DHCP on GNS3
-                    </button>
-                </a>
-            </div>
+        <button disabled="disabled" type="button" class="list-group-item list-group-item-action"> Matematica
+            Discreta
+        </button>
+        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eo9it0xEcnBKg1RnPdwDP1YBzhFJoi_PWRdPPvbziIHf9w?e=fgwobB"
+           target="_blank">
+            <button type="button" class="list-group-item list-group-item-action"> Analisi Matematica
+            </button>
+        </a>
+        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Ev8T_1SumdhIhVCFrOFl9BgBa_wxKrQNTGcTxCj8kXOIUA?e=t2gYIo"
+           target="_blank">
+            <button type="button" class="list-group-item list-group-item-action"> Programmazione Ad
+                Oggetti
+            </button>
+        </a>
+        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EjgTzoghH6FBlsDXGLAl3bgBQ3PupiQoOwFMvkMvvW0cEA?e=EMdU4j"
+           target="_blank">
+            <button type="button" class="list-group-item list-group-item-action"> Reti Di Calcolatori
+            </button>
+        </a>
+        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eihu5P64EEFHndVT_VJKgNEBdCQ1AvaI7-l0Xz8qOsA-Hw?e=4zNgCK"
+           target="_blank">
+            <button type="button" class="list-group-item list-group-item-action"> Calcolo
+                Probabilistico Statistica Matematica
+            </button>
+        </a>
+        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EqRoP_VNvZBMjpeTntsKzSkBvgJXJVPunEmE1nVTlVXB6w?e=y3tXvr"
+           target="_blank">
+            <button type="button" class="list-group-item list-group-item-action"> Progettazione
+                Algoritmi
+            </button>
+        </a>
+        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eq3Rp8R9BPNIlS37WwbP2vEBxKQjqE3jw_QhPPmX_eGxRw?e=EP5PeA"
+           target="_blank">
+            <button type="button" class="list-group-item list-group-item-action"> Ingegneria del Software
 
-        </div>
-
+            </button>
+        </a>
+        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Enf3sk3CmQlBiyRCKaacKC8BuSqmJP3LHfPAR3F334QelA?e=5UrueQ"
+           target="_blank">
+            <button type="button" class="list-group-item list-group-item-action"> Programmazione Distribuita
+            </button>
+        </a>
+        <a href="https://unisalerno-my.sharepoint.com/:t:/g/personal/g_sacrestano_studenti_unisa_it/ETtXyTsy4KJFiXcM3oD5j8QB6Io5AaZUnE1j8K9uzUqeQA?e=wVMEuz">
+            <button type="button" class="list-group-item list-group-item-action"> Fondamenti Intelligenza Artificiale
+            </button>
+        </a>
     </div>
+</div>
+<div id="projects" class="container text-center p-3">
+    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+        My Project
+    </button>
+    <a href="https://github.com/gsacrestano/FormazionSuMisura">
+        <button type="button"
+                class="list-group-item list-group-item-action"> Formazione Su Misura
+        </button>
+    </a>
+    <a href="https://github.com/gsacrestano/comicvault">
+        <button type="button"
+                class="list-group-item list-group-item-action"> ComicVault
+        </button>
+    </a>
+    <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EroohwAlkRhDuHPPs7mZBuAB0Dq_5DNktz1XPM4WImBOCw?e=LJMXmU">
+        <button type="button" class="list-group-item list-group-item-action"> Analisi Temperature
+            Fisciano
+        </button>
+    </a>
+    <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EirAozeDcthNhL3_EIrgzicBsdFjWrYDL53K4CQlAsJHyw?e=UCPbhY">
+        <button type="button" class="list-group-item list-group-item-action"> Server DHCP on GNS3
+        </button>
+    </a>
 </div>
 
 

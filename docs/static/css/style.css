@@ -2,6 +2,9 @@ html{
     font-family: sans-serif;
     font-size: 100%;
 }
+h1{
+  display: inline-block;
+}
 body{
     background-color: #FFFAFA;
 }
@@ -28,11 +31,14 @@ header li:hover{
 }
 
 #logoImg{
-    width: 7%;
+    width: 10%;
     border-radius: 20px;
     display: inline;
 }
+.nH:hover{
 
+    background-color: white;
+}
 a:hover{
     text-decoration: none;
 }
@@ -45,8 +51,6 @@ a:hover{
     border-radius: 30px;
     text-align: left;
     border: 1px solid lightgray;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
-
 }
 
 @media screen and (max-width: 900px) {

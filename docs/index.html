@@ -16,17 +16,22 @@
         <img id="logoImg" class="rounded-circle" src="static/img/logo.jpeg" alt="logo" href="www.google.com"/>
         <h1>Giulio Sacrestano</h1>
     </div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a type="button" class="btn btn-primary btn-sm ml-0 mt-1" href="#notes"> Notes</a>
-        <a type="button" class="btn btn-primary btn-sm ml-2 mt-1" href="#projects"> Projects </a>
-
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <div class="d-flex ms-auto">
+                <a class="btn btn-primary btn-sm me-2" href="#notes">Notes</a>
+                <a class="btn btn-primary btn-sm" href="#projects">Projects</a>
+            </div>
+        </div>
     </nav>
+
+
 </header>
 
 <div class='paragraphContainer'>
     <h2> Site Focus</h2>
     <p>
-        Welcome to my personal website! I am a second-year computer science student with a passion for technology and
+        Welcome to my personal website! I am a third-year computer science student with a passion for technology and
         learning. Here, you'll find a curated collection of my notes and projects from various courses, showcasing my
         journey and growth in the field of computer science. This site serves as a repository of knowledge and a
         platform to share insights, solutions, and innovative ideas. Whether you're a fellow student, a curious learner,
@@ -39,9 +44,9 @@
     <p>To understand the real value of my knowledge, you can consult the educational programs of the Computer
         Science courses at the University of Salerno or view my italian notes.</p>
     <ul>
-        <li>Java</li>
+        <li>Java EE, Spring Boot</li>
         <li>Html,Css,JavaScript</li>
-        <li>Mysql</li>
+        <li>Mysql , Postgres</li>
         <li>Git/GitHub</li>
     </ul>
 </div>
@@ -52,50 +57,38 @@
         <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
             My Notes
         </button>
-
-        <button disabled="disabled" type="button" class="list-group-item list-group-item-action"> Matematica
-            Discreta
-        </button>
-        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eo9it0xEcnBKg1RnPdwDP1YBzhFJoi_PWRdPPvbziIHf9w?e=fgwobB"
+        <a href="./static/notes/Note_Teoremi_A1.pdf"
            target="_blank">
             <button type="button" class="list-group-item list-group-item-action"> Analisi Matematica
             </button>
         </a>
-        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Ev8T_1SumdhIhVCFrOFl9BgBa_wxKrQNTGcTxCj8kXOIUA?e=t2gYIo"
+        <a href="./static/notes/Note_POO.pdf"
            target="_blank">
             <button type="button" class="list-group-item list-group-item-action"> Programmazione Ad
                 Oggetti
             </button>
         </a>
-        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EjgTzoghH6FBlsDXGLAl3bgBQ3PupiQoOwFMvkMvvW0cEA?e=EMdU4j"
+        <a href="./static/notes/Note_Reti.pdf"
            target="_blank">
             <button type="button" class="list-group-item list-group-item-action"> Reti Di Calcolatori
             </button>
         </a>
-        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eihu5P64EEFHndVT_VJKgNEBdCQ1AvaI7-l0Xz8qOsA-Hw?e=4zNgCK"
-           target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Calcolo
-                Probabilistico Statistica Matematica
-            </button>
-        </a>
-        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EqRoP_VNvZBMjpeTntsKzSkBvgJXJVPunEmE1nVTlVXB6w?e=y3tXvr"
+        <a href="./static/notes/Es_PA.zip"
            target="_blank">
             <button type="button" class="list-group-item list-group-item-action"> Progettazione
-                Algoritmi
+                Algoritmi (Esercizi)
             </button>
         </a>
-        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Eq3Rp8R9BPNIlS37WwbP2vEBxKQjqE3jw_QhPPmX_eGxRw?e=EP5PeA"
-           target="_blank">
+        <a href="./static/notes/Note_IS.pdf" target="_blank">
             <button type="button" class="list-group-item list-group-item-action"> Ingegneria del Software
 
             </button>
         </a>
-        <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/Enf3sk3CmQlBiyRCKaacKC8BuSqmJP3LHfPAR3F334QelA?e=5UrueQ"
-           target="_blank">
+        <a href="./static/notes/Note_PD.pdf" target="_blank">
             <button type="button" class="list-group-item list-group-item-action"> Programmazione Distribuita
             </button>
         </a>
-        <a href="https://unisalerno-my.sharepoint.com/:t:/g/personal/g_sacrestano_studenti_unisa_it/ETtXyTsy4KJFiXcM3oD5j8QB6Io5AaZUnE1j8K9uzUqeQA?e=wVMEuz">
+        <a href="./static/notes/Note_FIA.pdf" target="_blank">
             <button type="button" class="list-group-item list-group-item-action"> Fondamenti Intelligenza Artificiale
             </button>
         </a>
@@ -115,13 +108,16 @@
                 class="list-group-item list-group-item-action"> ComicVault
         </button>
     </a>
-    <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EroohwAlkRhDuHPPs7mZBuAB0Dq_5DNktz1XPM4WImBOCw?e=LJMXmU">
-        <button type="button" class="list-group-item list-group-item-action"> Analisi Temperature
-            Fisciano
+    <a href="https://github.com/gsacrestano/astromark">
+        <button type="button" class="list-group-item list-group-item-action"> Astromark
         </button>
     </a>
-    <a href="https://unisalerno-my.sharepoint.com/:f:/g/personal/g_sacrestano_studenti_unisa_it/EirAozeDcthNhL3_EIrgzicBsdFjWrYDL53K4CQlAsJHyw?e=UCPbhY">
-        <button type="button" class="list-group-item list-group-item-action"> Server DHCP on GNS3
+    <a href="https://github.com/gsacrestano/astromark-ai">
+        <button type="button" class="list-group-item list-group-item-action"> Astromark-AI
+        </button>
+    </a>
+    <a href="./static/notes/Progetto_Reti.zip">
+        <button type="button" class="list-group-item list-group-item-action"> Server DHCP on GNS3 (Progetto Reti)
         </button>
     </a>
 </div>

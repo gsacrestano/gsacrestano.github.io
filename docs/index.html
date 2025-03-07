@@ -20,7 +20,9 @@
     <nav class="navbar navbar-dark bg-dark p-0 mt-1">
         <div class="container-fluid p-0 border-bottom border-5 border-light">
             <div class="d-flex ms-auto">
-                <a class="btn btn-dark btn-sm me-2" href="#notes">Notes</a>
+                <a class="btn btn-dark btn-sm" href="#aboutMe">About me</a>
+                <a class="btn btn-dark btn-sm" href="#knowledge">Knowledge</a>
+                <a class="btn btn-dark btn-sm" href="#notes">Notes</a>
                 <a class="btn btn-dark btn-sm" href="#projects">Projects</a>
                 <a class="btn btn-dark btn-sm" href="#contacts">Contacts</a>
             </div>
@@ -29,34 +31,48 @@
 
 
 </header>
-<div class='paragraphContainer'>
-    <h2>About Me</h2>
-    <p>
-        Welcome to my personal website! I am a third-year computer science student with a passion for technology and
-        learning. My native language is 🇮🇹 but I also speak 🇬🇧 and I'm learning 🇯🇵.Here, you'll find a curated
-        collection of my notes and projects from various courses, showcasing my
-        journey and growth in the field of computer science. This site serves as a repository of knowledge and a
-        platform to share insights, solutions, and innovative ideas. Whether you're a fellow student, a curious learner,
-        or an industry professional, I hope you find the content here both informative and inspiring. Join me as I
-        explore the fascinating world of computer science and continue to develop my skills and understanding.
-    </p>
+<div id="aboutMe" class="container-md mt-3">
+    <div class="col">
+        <button class="list-group-item list-group-item-secondary" aria-current="true">
+            About me
+        </button>
+        <button type="button" class=" list-group-item list-group-item-action">
+            Welcome to my personal website! I am a third-year computer science student with a passion for technology and
+            learning. My native language is 🇮🇹 but I also speak 🇬🇧 and I'm learning 🇯🇵. Here, you'll find a curated
+            collection of my notes and projects from various courses, showcasing my
+            journey and growth in the field of computer science. This site serves as a repository of knowledge and a
+            platform to share insights, solutions, and innovative ideas. Whether you're a fellow student, a curious
+            learner,
+            or an industry professional, I hope you find the content here both informative and inspiring. Join me as I
+            explore the fascinating world of computer science and continue to develop my skills and understanding.
+        </button>
+
+
+    </div>
 </div>
-<div class="paragraphContainer">
-    <h2>Currently Knowledge</h2>
-    <p>To understand the real value of my knowledge, you can consult the educational programs of the Computer
-        Science courses at the University of Salerno or view my italian notes.</p>
-    <ul>
-        <li>Java EE, Spring Boot</li>
-        <li>Html,Css,JavaScript</li>
-        <li>MySQL,Postgres</li>
-        <li>Git/GitHub</li>
-    </ul>
+<div id="knowledge" class="container-md mt-3">
+    <div class="col">
+        <button class="list-group-item list-group-item-secondary" aria-current="true">
+            Current Knowledge
+        </button>
+        <button type="button" class=" list-group-item list-group-item-action">
+            To understand the real value of my knowledge, you can consult the educational programs of the Computer
+            Science courses at the University of Salerno or view my italian notes.
+            <li>Java EE, Spring Boot</li>
+            <li>Html,Css,JavaScript</li>
+            <li>MySQL,Postgres</li>
+            <li>Git/GitHub</li>
+        </button>
+
+
+    </div>
 </div>
-<div class="container-md">
+
+<div class=" extra container-md mt-3">
     <div class="row">
         <div id="notes" class="col-lg-auto container-sm text-center p-3 rounded ">
             <button class="list-group-item list-group-item-secondary" aria-current="true">
-                My Notes
+                Notes
             </button>
             <a href="./static/notes/Note_Teoremi_A1.pdf"
                target="_blank">
@@ -99,7 +115,7 @@
         <div id="projects" class="col-lg-auto container-sm text-center p-3 rounded">
 
             <button class="list-group-item list-group-item-secondary" aria-current="true">
-                My projects
+                Projects
             </button>
             <a href="https://github.com/gsacrestano/FormazionSuMisura">
                 <button type="button"
@@ -132,18 +148,27 @@
         </div>
     </div>
 </div>
-<div id="contacts" class="p-3 bg-dark text-white mt-3">
-    <h2>Social & Contact</h2>
-
-    <li>
-        <a href="https://www.linkedin.com/in/giulio-sacrestano-642a21244/" target="_blank">Linkedin</a>
-    </li>
-    <li>
-        <a href="mailto:g.sacrestano@studenti.unisa.it" target="_blank">E-Mail</a>
-    </li>
-    <li class="link">
-        <a href="https://github.com/gsacrestano" target="_blank">GitHub</a>
-    </li>
+<div id="contacts" class="p-4 bg-dark text-white mt-4 rounded">
+    <h2 class="mb-3 border-bottom border-3">Contacts</h2>
+    <ul class="list-unstyled">
+        <li>
+            <a href="https://www.linkedin.com/in/giulio-sacrestano-642a21244/" target="_blank"
+               class="text-light text-decoration-none">
+                🔗 Linkedin
+            </a>
+        </li>
+        <li>
+            <a href="mailto:g.sacrestano@studenti.unisa.it" target="_blank" class="text-light text-decoration-none">
+                ✉️ E-Mail
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/gsacrestano" target="_blank" class="text-light text-decoration-none">
+                💻 GitHub
+            </a>
+        </li>
+    </ul>
 </div>
+
 </body>
 </html>

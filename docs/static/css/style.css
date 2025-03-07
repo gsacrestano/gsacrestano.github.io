@@ -52,7 +52,10 @@ a:hover{
     text-align: left;
     border: 1px solid lightgray;
 }
+.extra button:hover{
+    background-color: #d6d8db;
 
+}
 @media screen and (max-width: 900px) {
     #logoImg{
         width: 20%;

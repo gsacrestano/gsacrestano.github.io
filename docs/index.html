@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="static/css/style.css">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta charset="UTF-8">˙
+    <meta charset="UTF-8">
+    ˙
 </head>
 <body class="bg-dark">
 <header class="bg-dark">
-        <div>
-            <img id="logoImg" class="rounded-circle" src="static/img/logo.jpeg" alt="logo" href="www.google.com"/>
-            <h1>Giulio Sacrestano</h1>
+    <div>
+        <img id="logoImg" class="rounded-circle" src="static/img/logo.jpeg" alt="logo" href="www.google.com"/>
+        <h1>Giulio Sacrestano</h1>
     </div>
     <nav class="navbar navbar-dark bg-dark p-0 mt-1">
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0 border-bottom border-5 border-light">
             <div class="d-flex ms-auto">
                 <a class="btn btn-dark btn-sm me-2" href="#notes">Notes</a>
                 <a class="btn btn-dark btn-sm" href="#projects">Projects</a>
@@ -28,11 +29,12 @@
 
 
 </header>
-<div class='paragraphContainer' >
+<div class='paragraphContainer'>
     <h2>About Me</h2>
     <p>
         Welcome to my personal website! I am a third-year computer science student with a passion for technology and
-        learning. My native language is 🇮🇹 but I also speak 🇬🇧 and I'm learning 🇯🇵.Here, you'll find a curated collection of my notes and projects from various courses, showcasing my
+        learning. My native language is 🇮🇹 but I also speak 🇬🇧 and I'm learning 🇯🇵.Here, you'll find a curated
+        collection of my notes and projects from various courses, showcasing my
         journey and growth in the field of computer science. This site serves as a repository of knowledge and a
         platform to share insights, solutions, and innovative ideas. Whether you're a fellow student, a curious learner,
         or an industry professional, I hope you find the content here both informative and inspiring. Join me as I
@@ -40,7 +42,7 @@
     </p>
 </div>
 <div class="paragraphContainer">
-    <h2>Currently Knwoledge</h2>
+    <h2>Currently Knowledge</h2>
     <p>To understand the real value of my knowledge, you can consult the educational programs of the Computer
         Science courses at the University of Salerno or view my italian notes.</p>
     <ul>
@@ -51,76 +53,84 @@
     </ul>
 </div>
 <div class="container-md">
-<div class="row">
-<div id="notes"  class="col-lg-auto container-sm text-center p-3 rounded ">
-        <button class="list-group-item list-group-item-secondary"  aria-current="true">
-            My Notes
-        </button>
-        <a href="./static/notes/Note_Teoremi_A1.pdf"
-           target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Analisi Matematica
+    <div class="row">
+        <div id="notes" class="col-lg-auto container-sm text-center p-3 rounded ">
+            <button class="list-group-item list-group-item-secondary" aria-current="true">
+                My Notes
             </button>
-        </a>
-        <a href="./static/notes/Note_POO.pdf"
-           target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Programmazione Ad
-                Oggetti
-            </button>
-        </a>
-        <a href="./static/notes/Note_Reti.pdf"
-           target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Reti Di Calcolatori
-            </button>
-        </a>
-        <a href="./static/notes/Es_PA.zip"
-           target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Progettazione
-                Algoritmi (Esercizi)
-            </button>
-        </a>
-        <a href="./static/notes/Note_IS.pdf" target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Ingegneria del Software
+            <a href="./static/notes/Note_Teoremi_A1.pdf"
+               target="_blank">
+                <button type="button" class="list-group-item list-group-item-action"> Analisi Matematica
+                </button>
+            </a>
+            <a href="./static/notes/Note_POO.pdf"
+               target="_blank">
+                <button type="button" class="list-group-item list-group-item-action"> Programmazione Ad
+                    Oggetti
+                </button>
+            </a>
+            <a href="./static/notes/Note_Reti.pdf"
+               target="_blank">
+                <button type="button" class="list-group-item list-group-item-action"> Reti Di Calcolatori
+                </button>
+            </a>
+            <a href="./static/notes/Es_PA.zip"
+               target="_blank">
+                <button type="button" class="list-group-item list-group-item-action"> Progettazione
+                    Algoritmi (Esercizi)
+                </button>
+            </a>
+            <a href="./static/notes/Note_IS.pdf" target="_blank">
+                <button type="button" class="list-group-item list-group-item-action"> Ingegneria del Software
 
-            </button>
-        </a>
-        <a href="./static/notes/Note_PD.pdf" target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Programmazione Distribuita
-            </button>
-        </a>
-        <a href="./static/notes/Note_FIA.pdf" target="_blank">
-            <button type="button" class="list-group-item list-group-item-action"> Fondamenti Intelligenza Artificiale
-            </button>
-        </a>
-</div>
-<div id="projects" class="col-lg-auto container-sm text-center p-3 rounded">
+                </button>
+            </a>
+            <a href="./static/notes/Note_PD.pdf" target="_blank">
+                <button type="button" class="list-group-item list-group-item-action"> Programmazione Distribuita
+                </button>
+            </a>
+            <a href="./static/notes/Note_FIA.pdf" target="_blank">
+                <button type="button" class="list-group-item list-group-item-action"> Fondamenti Intelligenza
+                    Artificiale
+                </button>
+            </a>
 
-    <button class="list-group-item list-group-item-secondary"  aria-current="true">
-        My projects
-    </button>
-    <a href="https://github.com/gsacrestano/FormazionSuMisura">
-        <button type="button"
-                class="list-group-item list-group-item-action"> Formazione Su Misura
-        </button>
-    </a>
-    <a href="https://github.com/gsacrestano/comicvault">
-        <button type="button"
-                class="list-group-item list-group-item-action"> ComicVault
-        </button>
-    </a>
-    <a href="https://github.com/gsacrestano/astromark">
-        <button type="button" class="list-group-item list-group-item-action"> Astromark
-        </button>
-    </a>
-    <a href="https://github.com/gsacrestano/astromark-ai">
-        <button type="button" class="list-group-item list-group-item-action"> Astromark-AI
-        </button>
-    </a>
-    <a href="./static/notes/Progetto_Reti.zip">
-        <button type="button" class="list-group-item list-group-item-action"> Server DHCP on GNS3 (Progetto Reti)
-        </button>
-    </a>
-</div>
-</div>
+        </div>
+        <div id="projects" class="col-lg-auto container-sm text-center p-3 rounded">
+
+            <button class="list-group-item list-group-item-secondary" aria-current="true">
+                My projects
+            </button>
+            <a href="https://github.com/gsacrestano/FormazionSuMisura">
+                <button type="button"
+                        class="list-group-item list-group-item-action"> Formazione Su Misura
+                </button>
+            </a>
+            <a href="https://github.com/gsacrestano/comicvault">
+                <button type="button"
+                        class="list-group-item list-group-item-action"> ComicVault
+                </button>
+            </a>
+            <a href="https://github.com/gsacrestano/astromark">
+                <button type="button" class="list-group-item list-group-item-action"> Astromark
+                </button>
+            </a>
+            <a href="https://github.com/gsacrestano/astromark-ai">
+                <button type="button" class="list-group-item list-group-item-action"> Astromark-AI
+                </button>
+            </a>
+            <a href="./static/notes/Progetto_Reti.zip">
+                <button type="button" class="list-group-item list-group-item-action"> Server DHCP on GNS3 (Progetto
+                    Reti)
+                </button>
+            </a>
+            <a href="#">
+                <button type="button" class="list-group-item list-group-item-action"> IDS on ESP32 (Work in progress)
+                </button>
+            </a>
+
+        </div>
+    </div>
 </div>
 <div id="contacts" class="p-3 bg-dark text-white mt-3">
     <h2>Social & Contact</h2>

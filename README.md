@@ -10,6 +10,7 @@ Welcome to my personal website repository! This site is a showcase of my journey
   - `static`: This directory houses all static files, such as CSS and images.
     - `css`: Contains the stylesheets used for the website.
     - `images`: Contains all image assets used on the website.
+    - `notes`: Contains all notes ora zip used on the website.
 
 ## Usage
 

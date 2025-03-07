@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="static/css/style.css">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta charset="UTF-8">˙
 </head>
 
-<body>
-<header>
-    <div>
-        <img id="logoImg" class="rounded-circle" src="static/img/logo.jpeg" alt="logo" href="www.google.com"/>
-        <h1>Giulio Sacrestano</h1>
+<body class="bg-dark">
+<header class="bg-dark">
+        <div>
+            <img id="logoImg" class="rounded-circle" src="static/img/logo.jpeg" alt="logo" href="www.google.com"/>
+            <h1>Giulio Sacrestano</h1>
+
     </div>
-    <nav class="navbar navbar-dark bg-primary">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark bg-dark p-0 mt-1">
+        <div class="container-fluid p-0">
             <div class="d-flex ms-auto">
-                <a class="btn btn-primary btn-sm me-2" href="#notes">Notes</a>
-                <a class="btn btn-primary btn-sm" href="#projects">Projects</a>
+                <a class="btn btn-dark btn-sm me-2" href="#notes">Notes</a>
+                <a class="btn btn-dark btn-sm" href="#projects">Projects</a>
+                <a class="btn btn-dark btn-sm" href="#contacts">Contacts</a>
             </div>
         </div>
     </nav>
@@ -29,10 +32,10 @@
 </header>
 
 <div class='paragraphContainer'>
-    <h2> Site Focus</h2>
+    <h2>About Me</h2>
     <p>
         Welcome to my personal website! I am a third-year computer science student with a passion for technology and
-        learning. Here, you'll find a curated collection of my notes and projects from various courses, showcasing my
+        learning. My native language is 🇮🇹 but I also speak 🇬🇧 and I'm learning 🇯🇵.Here, you'll find a curated collection of my notes and projects from various courses, showcasing my
         journey and growth in the field of computer science. This site serves as a repository of knowledge and a
         platform to share insights, solutions, and innovative ideas. Whether you're a fellow student, a curious learner,
         or an industry professional, I hope you find the content here both informative and inspiring. Join me as I
@@ -46,15 +49,14 @@
     <ul>
         <li>Java EE, Spring Boot</li>
         <li>Html,Css,JavaScript</li>
-        <li>Mysql , Postgres</li>
+        <li>MySQL,Postgres</li>
         <li>Git/GitHub</li>
     </ul>
 </div>
 
-<div id="notes" class="container text-center p-3">
 
-    <div class="list-group">
-        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+<div id="notes" style="width: 40%;" class="container-sm text-center p-3 rounded">
+        <button class="list-group-item list-group-item-secondary"  aria-current="true">
             My Notes
         </button>
         <a href="./static/notes/Note_Teoremi_A1.pdf"
@@ -92,11 +94,11 @@
             <button type="button" class="list-group-item list-group-item-action"> Fondamenti Intelligenza Artificiale
             </button>
         </a>
-    </div>
 </div>
-<div id="projects" class="container text-center p-3">
-    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
-        My Project
+<div id="projects"  style="width: 40%" class="container-sm text-center p-3 rounded">
+
+    <button class="list-group-item list-group-item-secondary"  aria-current="true">
+        My projects
     </button>
     <a href="https://github.com/gsacrestano/FormazionSuMisura">
         <button type="button"
@@ -123,20 +125,19 @@
 </div>
 
 
-<div class="p-3 bg-dark text-white mt-3">
+
+
+<div id="contacts" class="p-3 bg-dark text-white mt-3">
     <h2>Social & Contact</h2>
 
-    <li>
-        <a href="https://twitter.com/Sacresta_Giulio" target="_blank">Twitter</a>
-    </li>
     <li>
         <a href="https://www.linkedin.com/in/giulio-sacrestano-642a21244/" target="_blank">Linkedin</a>
     </li>
     <li>
-        <a href="https://www.facebook.com/profile.php?id=100089091433602" target="_blank">Facebook</a>
-    </li>
-    <li>
         <a href="mailto:g.sacrestano@studenti.unisa.it" target="_blank">E-Mail</a>
+    </li>
+    <li class="link">
+        <a href="https://github.com/gsacrestano" target="_blank">GitHub</a>
     </li>
 </div>
 
